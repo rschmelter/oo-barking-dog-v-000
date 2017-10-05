@@ -1,8 +1,8 @@
 # Your code goes here!
 class Dog
-  def initialize(name, bark = "woof!")
+  def initialize(name, bark)
     @name = name
-    @bark = bark
+    @bark = "woof!"
   end
   def bark=(bark)
     @bark
