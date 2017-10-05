@@ -17,3 +17,6 @@ class Dog
     @bark
   end
 end
+
+jimmy = Dog.new
+jimmy.bark
